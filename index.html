@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+     
+
+  <script>
+    function nam() {
+      var n = document.getElementById('name').value;
+      var m = document.getElementById('mail').value;
+      var no = document.getElementById('number').value;
+      var addr = document.getElementById('address').value;
+
+      var course = document.getElementById('course').value;
+      var course2 = document.getElementById('course2').value;
+      var course3 = document.getElementById('course3').value;
+
+      var college = document.getElementById('college').value;
+
+      var college2 = document.getElementById('college2').value;
+      var college3 = document.getElementById('college3').value;
+            var yop = document.getElementById('yop').value;
+            var yop2 = document.getElementById('yop2').value;
+            var yop3 = document.getElementById('yop3').value;
+
+      
+      var percentage = document.getElementById('percentage').value;
+
+      var percentage2 = document.getElementById('percentage2').value;
+      var percentage3 = document.getElementById('percentage3').value;
+
+      var skill = document.getElementById('skill').value;
+      var skill2 = document.getElementById('skill2').value;
+      var skill3 = document.getElementById('skill3').value;
+      var skill4 = document.getElementById('skill4').value;
+
+      var prot = document.getElementById('prot').value;
+      var prod = document.getElementById('prod').value;
+
+
+      localStorage.setItem('textvalue', n);
+      localStorage.setItem('ma', m);
+      localStorage.setItem('num', no);
+      localStorage.setItem('Address', addr);
+
+      localStorage.setItem('course', course);
+      localStorage.setItem('course2', course2);
+      localStorage.setItem('course3', course3);
+      localStorage.setItem('college', college);
+      localStorage.setItem('college2', college2);
+      localStorage.setItem('college3', college3);
+      localStorage.setItem('yop', yop);
+      localStorage.setItem('yop2', yop2);
+      localStorage.setItem('yop3', yop3);
+
+      localStorage.setItem('percentage', percentage);
+
+      localStorage.setItem('percentage2', percentage2);
+      localStorage.setItem('percentage3', percentage3);
+      localStorage.setItem('skill', skill);
+      localStorage.setItem('skill2', skill2);
+      localStorage.setItem('skill3', skill3);
+      localStorage.setItem('skill4', skill4);
+      localStorage.setItem('prot', prot);
+      localStorage.setItem('prod', prod);
+
+      return false;
+    }
+  </script>
+</head>
+
+<body>
+  <form action="/cv.html">
+    <label for="name">Name</label> 
+    <input id="name" type="text"> 
+    <label for="mail">Mail</label>
+    <input id="mail" type="email"> 
+    <label for="number">Number</label> 
+    <input type="number" id="number"> 
+    <label for="address">Address</label> 
+    <input type="text" id="address"> 
+    <label for="course">Exam Name</label>
+
+      <input id="course" type="text" placeholder="Enter BE/BTECH">
+        <label for="college">Institute Name</label>
+
+    <input id="college" type="text">
+        <label for="year">Year Of Passing</label>
+
+    <input id="yop" type="number">
+        <label for="Percentage">Percentage</label>
+
+    <input type="text" id="percentage">
+     
+
+    <label for="course2">Exam Name</label>
+
+
+       <input id="course2" type="text" placeholder="Enter 12th/Diploma">
+        <label for="college2">Institute Name</label>
+
+    <input id="college2" type="text">
+        <label for="year">Year Of Passing</label>
+
+    <input id="yop2" type="number">
+        <label for="Percentage2">Percentage</label>
+
+
+    <input type="text" id="percentage2">
+    
+    <label for="course3">Exam Name</label>
+
+     <input id="course3" type="text" placeholder="Enter 10th">
+        <label for="college3">Institute Name</label>
+
+    <input id="college3" type="text">
+        <label for="year">Year Of Passing</label>
+
+    <input id="yop3" type="number">
+    <label for="Percentage3">Percentage</label>
+
+    <input type="text" value id="percentage3">
+    
+    <label for="skill">Technical Skills</label>
+<input type="text" id="skill" placeholder="e.g. Html css">
+<input type="text" id="skill2" placeholder="e.g. C++">
+<input type="text" id="skill3" placeholder="e.g. Ms Office">
+<input type="text" id="skill4"> 
+<label for="Ptoject">Project Title</label> 
+<input id="prot" type="text">
+ <label for="Project Discription">Project Discription</label> 
+<input type="text" id="prod"> 
+   <input id="submit" type="submit" onclick="nam()">
+
+
+
+
+
+  </form>
+  <script src="main.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+     
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <div class="name">
+    <header id="cvname"></header>
+    <b> Email :</b> <span id="mail">
+    </span> <br />
+    <b>Mobile No :</b> <span id="number"></span> <br>
+    <b>Address :</b> <span id="address"></span>
+  </div>
+  <hr>
+  <div class="objective">
+    <b>Carrier Objective:</b>
+    <p>To enhance my skills by taking on this challenging position and expanding my knowledge. To seek a position in a company that can launch my career and help me to build a stronger skill set.</p>
+  </div>
+  <div>
+    <b>Accedemic Qualification:</b>
+    <br /><br>
+    <table>
+      <thead>
+        <tr>
+          <th>Examination</th>
+          <th>Educational Institute</th>
+          <th>Year Of Passing</th>
+          <th>Percentage</th>
+        </tr>
+
+      </thead>
+      <tbody>
+        <tr>
+          <td id="course"></td>
+          <td id="college"></td>
+          <td id="yop"></td>
+          <td id="percentage">       
+</td>
+
+          
+          
+          
+        </tr>
+        <tr>
+          <td id="course2"></td>
+          <td id="college2"></td>
+          <td id="yop2"></td>
+          <td id="percentage2"></td>
+        </tr>
+        <tr>
+          <td id="course3"></td>
+          <td id="college3"></td>
+          <td id="yop3"></td>
+          <td id="percentage3"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="skill"><br>
+    <b>Technical Skills:</b><br>
+    
+    <span id="skill"></span>
+    <span id="skill2"></span>
+    <span id="skill3"></span>
+    <span id="skill4"></span>
+
+    
+  </div>
+  <div>
+    <b>Project:</b><br>
+    <br><strong>Title:</strong><span id="prot"></span>  <br> 
+    <br><strong>Discription:</strong><span id="prod"></span>
+  </div><br>
+  <div id="declare">
+    <b>Declaration:</b><br><br>
+    I hereby declare that the above information is correct and true to the best of my knowledge and belief. 
+   <br> <br> <br><strong>Place:</strong>
+    <br> <strong>Date:</strong>
+    <strong class="sign">Signature.</strong>
+
+  </div>
+<script>
+  
+  document.getElementById('cvname').innerHTML=localStorage.getItem('textvalue');
+    document.getElementById('mail').innerHTML=localStorage.getItem('ma');
+
+document.getElementById('number').innerHTML=localStorage.getItem('num');
+
+document.getElementById('address').innerHTML=localStorage.getItem('Address');
+document.getElementById('course').innerHTML=localStorage.getItem('course');
+document.getElementById('course2').innerHTML=localStorage.getItem('course2');
+document.getElementById('course3').innerHTML=localStorage.getItem('course3');
+document.getElementById('college').innerHTML=localStorage.getItem('college');
+document.getElementById('college2').innerHTML=localStorage.getItem('college2');
+document.getElementById('college3').innerHTML=localStorage.getItem('college3');
+document.getElementById('yop').innerHTML=localStorage.getItem('yop');
+document.getElementById('yop2').innerHTML=localStorage.getItem('yop2');
+document.getElementById('yop3').innerHTML=localStorage.getItem('yop3');
+
+document.getElementById('percentage').innerHTML=localStorage.getItem('percentage');
+document.getElementById('percentage2').innerHTML=localStorage.getItem('percentage2');
+document.getElementById('percentage3').innerHTML=localStorage.getItem('percentage3');
+
+document.getElementById('skill').innerHTML=localStorage.getItem('skill');
+document.getElementById('skill2').innerHTML=localStorage.getItem('skill2');
+document.getElementById('skill3').innerHTML=localStorage.getItem('skill3');
+document.getElementById('skill4').innerHTML=localStorage.getItem('skill4');
+document.getElementById('prot').innerHTML=localStorage.getItem('prot');
+document.getElementById('prod').innerHTML=localStorage.getItem('prod');
+
+</script>
+
+
+
+</body>
+
+</html>

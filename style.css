@@ -1,0 +1,77 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  
+  
+}
+
+
+header{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+hr{
+  border-top: 3px double black;
+  border-bottom: 3px double black;
+
+  
+}
+b{
+  margin: 0;
+}
+
+.objective p{
+  font-size: 13px;
+  word-wrap: break-word;
+  
+}
+table,tr,td,th{
+  
+  border: 1.5px solid black;
+  border-collapse: collapse;
+  font-size: 10px;
+  padding: 5px;
+  table-layout: fixed;
+}
+ul li{
+  
+  padding: 5px;
+  margin-left: 25px;
+}
+.sign{
+  float: right;
+  margin-right: 50px;
+}
+
+.skill span{
+  display: block;
+  margin: 15px;
+  
+}
+label{
+  font-size: 20px;
+  display: block;
+  font-weight: bolder;
+  margin: 5px;
+}
+input{
+  display: inline;
+  width: 90vw;
+  margin: 5px;
+  font-size: 20px;
+  user-select: none;
+}
+#submit{
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  margin: auto;
+ justify-content: center;
+ font-weight: bolder;
+ color: white;
+  margin-top: 15px;
+  font-size: 25px;
+}
